@@ -57,15 +57,16 @@
         </nav>
     </div>
 
-    <div class="container-fluid marginFirstElement">
-        <div class="row">
-            <div class="col-sm col-centered tituloPagina">
-                <h1>Blog</h1>
+    <div class="bloque">
+        <div class="subbloque container-fluid marginFirstElement">
+            <div class="row">
+                <div class="col-sm col-centered tituloPagina">
+                    <h1>Blog</h1>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!--<div class="wrapper-masthead">
+        <!--<div class="wrapper-masthead">
     <div class="container">
       <header class="masthead clearfix">
         <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
@@ -82,16 +83,27 @@
       </header>
     </div>
       </div> -->
-    
 
-    <div id="main" role="main" class="container">
-        {{ content }}
-    </div>
 
-    <div class="wrapper-footer">
-        <div class="container">
-            <footer class="footer">
-                {% include svg-icons.html %}
+        <div id="main" role="main" class="subbloqueFill container">
+            {{ content }}
+        </div>
+
+
+        <div class="subbloque footerContenedor">
+            <footer class="py-4 footer">
+                <div class="container-fluid text-center">
+                    <div class="row">
+                        <div class="col-sm-6" style="margin: auto;">
+                            <small>&copy; Darío 2020. All Rights Reserved.</small>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="https://www.instagram.com/dari_rodri_" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://twitter.com/DaroSource" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/dar%C3%ADo-rodr%C3%ADguez-hern%C3%A1ndez-91228979/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
             </footer>
         </div>
     </div>

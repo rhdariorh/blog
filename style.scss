@@ -15,6 +15,21 @@
 /**************/
 /* CUSTOM */
 /**************/
+.bloque {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.subbloque {
+    flex: 0 1 auto;
+}
+
+.subbloqueFill {
+    flex: 1 1 auto;
+}
+
+
 .marginFirstElement {
     margin-top: 130px;
     display: inline-block;
@@ -36,6 +51,12 @@
 
 .fas {
     color: #77d14a;
+}
+
+.fab {
+    /*color: #77d14a;*/
+    font-size: 150%;
+    padding: 0.2em;
 }
 
 //
@@ -145,6 +166,25 @@
     }
 }
 
+//
+// Footer
+//
+.footerContenedor {
+    width: 100%;
+}
+.footer {
+    background-color: #f5faf3;
+    color: #41596b;
+}
+
+.footer a {
+    color: #41596b;
+}
+
+.footer a:hover {
+    color: #77d14a;
+}
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -153,11 +193,14 @@ html {
   font-size: 100%;
 }
 
-body {
-	background: $white;
+html, body {
+    background: $white;
     font-family: "Montserrat" !important;
     /*font: 18px/1.4 $helvetica;*/
     color: $black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -429,17 +472,7 @@ img {
   }
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
 
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
