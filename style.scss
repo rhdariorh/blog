@@ -9,6 +9,142 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+
+
+
+/**************/
+/* CUSTOM */
+/**************/
+.marginFirstElement {
+    margin-top: 130px;
+    display: inline-block;
+}
+
+.tituloPagina {
+    margin-bottom: 70px;
+}
+
+.tituloPagina h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.ocultar {
+    opacity: 0;
+    transition: .4s;
+}
+
+.fas {
+    color: #77d14a;
+}
+
+//
+// Barra navegacion
+//
+.barraNavegacion {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 100%);
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+
+.barraNavegacion button {
+    color: #000000;
+}
+
+.barraNavegacion .paginas a {
+    font-size: 1.3em;
+    text-decoration: none;
+    position: relative;
+    color: #000000;
+    font-weight: 500;
+}
+
+@media screen and (min-width:690px) {
+
+    .barraNavegacion .paginas a::after {
+        color: #77d14a;
+        border-top: .1em solid;
+        border-radius: 1em;
+        content: "";
+        position: absolute;
+        bottom: 0.3em;
+        left: 0em;
+        width: 100%;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .barraNavegacion .paginas a:hover::after {
+        border-top: .1em solid;
+        border-radius: 1em;
+        position: absolute;
+        bottom: 0.3em;
+        left: 0em;
+        transform: scaleX(0.9);
+    }
+}
+
+.barraNavegacion .paginas a:hover {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.contenedorLogoAnimation {
+    position: relative;
+    width: 200px;
+}
+
+@media screen and (max-width:768px) {
+    .contenedorLogoAnimation {
+        width: 150px;
+    }
+}
+
+.logoG {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    transition: .4s;
+}
+
+.logoG img {
+    width: 1.1em;
+}
+
+.logoD {
+    position: absolute;
+   /* padding-left: 250px;*/
+    z-index: 1;
+    opacity: 1;
+    transition: .4s;
+}
+
+.logoD img {
+    width: 1.1em;
+}
+
+.logo_expand {
+    opacity: 0;
+    transition: .4s;
+}
+
+.logoText {
+    color: #77d14a !important;
+    font-size: 1.6em;
+    font-weight: 700 !important;
+    text-align: center !important;
+    width: 100% !important;
+    transition: .2s !important;
+}
+
+@media screen and (max-width:692px) {
+    .logo_expand {
+        transition: 0s;
+    }
+}
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -71,7 +207,7 @@ p {
 
 a {
   color: $blue;
-  text-decoration: none;
+  text-decoration: none !important;
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
@@ -238,129 +374,7 @@ img {
     }
 }*/
 
-//
-// Custom
-//
-.marginFirstElement {
-    margin-top: 130px;
-    display: inline-block;
-}
 
-.tituloPagina {
-    margin-bottom: 70px;
-}
-
-.tituloPagina h1 {
-    text-align: center;
-    font-size: 50px;
-}
-
-//
-// Barra navegacion
-//
-.barraNavegacion {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 100%);
-    z-index: 2;
-    position: fixed;
-    width: 100%;
-}
-
-.barraNavegacion button {
-    color: #000000;
-}
-
-.barraNavegacion .paginas a {
-    font-size: 1.3em;
-    text-decoration: none;
-    position: relative;
-    color: #000000;
-    font-weight: 500;
-}
-
-@media screen and (min-width:690px) {
-
-    .barraNavegacion .paginas a::after {
-        color: #77d14a;
-        border-top: .1em solid;
-        border-radius: 1em;
-        content: "";
-        position: absolute;
-        bottom: 0.3em;
-        left: 0em;
-        width: 100%;
-        transform: scaleX(0);
-        transition: all 0.3s ease-in-out;
-    }
-
-    .barraNavegacion .paginas a:hover::after {
-        border-top: .1em solid;
-        border-radius: 1em;
-        position: absolute;
-        bottom: 0.3em;
-        left: 0em;
-        transform: scaleX(0.9);
-    }
-}
-
-.barraNavegacion .paginas a:hover {
-    text-decoration: none;
-    color: black;
-    transition: .3s;
-}
-
-.contenedorLogoAnimation {
-    position: relative;
-    width: 200px;
-}
-
-@media screen and (max-width:768px) {
-    .contenedorLogoAnimation {
-        width: 150px;
-    }
-}
-
-.logoG {
-    position: absolute;
-    z-index: 1;
-    opacity: 1;
-    transition: .4s;
-}
-
-.logoG img {
-    width: 1.1em;
-}
-
-.logoD {
-    position: absolute;
-    padding-left: 250px;
-    z-index: 1;
-    opacity: 1;
-    transition: .4s;
-}
-
-.logoD img {
-    width: 1.1em;
-}
-
-.logo_expand {
-    opacity: 0;
-    transition: .4s;
-}
-
-.logoText {
-    color: #77d14a !important;
-    font-size: 1.6em;
-    font-weight: 700 !important;
-    text-align: center !important;
-    width: 100% !important;
-    transition: .2s !important;
-}
-
-@media screen and (max-width:692px) {
-    .logo_expand {
-        transition: 0s;
-    }
-}
 
 //
 // .main
