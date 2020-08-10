@@ -19,29 +19,30 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+    font-family: "Montserrat" !important;
+    /*font: 18px/1.4 $helvetica;*/
+    color: $black;
 }
 
 .container {
-  margin: 0 auto;
+  /*margin: 0 auto;
   max-width: 740px;
-  padding: 0 10px;
+  padding: 0 10px;*/
+  padding-left: 4%;
+  padding-right: 4%;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 1em 0 15px;
+    padding: 0;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
-
-  @include mobile {
-    line-height: 1.4;
-  }
+    @include mobile {
+        line-height: 1.4;
+    }
 }
 
 h1 {
@@ -210,31 +211,155 @@ img {
   }
 }
 
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
+/*nav {
+    float: right;
+    margin-top: 23px; // @TODO: Vertically middle align
+    font-family: "Montserrat";
+    font-size: 18px;
 
     @include mobile {
-      margin: 0 10px;
-      color: $blue;
+        float: none;
+        margin-top: 9px;
+        display: block;
+        font-size: 16px;
     }
-  }
+
+    a {
+        margin-left: 20px;
+        color: $darkGray;
+        text-align: right;
+        font-weight: 300;
+        letter-spacing: 1px;
+
+        @include mobile {
+            margin: 0 10px;
+            color: $blue;
+        }
+    }
+}*/
+
+//
+// Custom
+//
+.marginFirstElement {
+    margin-top: 130px;
+    display: inline-block;
+}
+
+.tituloPagina {
+    margin-bottom: 70px;
+}
+
+.tituloPagina h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+//
+// Barra navegacion
+//
+.barraNavegacion {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 100%);
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+
+.barraNavegacion button {
+    color: #000000;
+}
+
+.barraNavegacion .paginas a {
+    font-size: 1.3em;
+    text-decoration: none;
+    position: relative;
+    color: #000000;
+    font-weight: 500;
+}
+
+@media screen and (min-width:690px) {
+
+    .barraNavegacion .paginas a::after {
+        color: #77d14a;
+        border-top: .1em solid;
+        border-radius: 1em;
+        content: "";
+        position: absolute;
+        bottom: 0.3em;
+        left: 0em;
+        width: 100%;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .barraNavegacion .paginas a:hover::after {
+        border-top: .1em solid;
+        border-radius: 1em;
+        position: absolute;
+        bottom: 0.3em;
+        left: 0em;
+        transform: scaleX(0.9);
+    }
+}
+
+.barraNavegacion .paginas a:hover {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.contenedorLogoAnimation {
+    position: relative;
+    width: 200px;
+}
+
+@media screen and (max-width:768px) {
+    .contenedorLogoAnimation {
+        width: 150px;
+    }
+}
+
+.logoG {
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    transition: .4s;
+}
+
+.logoG img {
+    width: 1.1em;
+}
+
+.logoD {
+    position: absolute;
+    padding-left: 250px;
+    z-index: 1;
+    opacity: 1;
+    transition: .4s;
+}
+
+.logoD img {
+    width: 1.1em;
+}
+
+.logo_expand {
+    opacity: 0;
+    transition: .4s;
+}
+
+.logoText {
+    color: #77d14a !important;
+    font-size: 1.6em;
+    font-weight: 700 !important;
+    text-align: center !important;
+    width: 100% !important;
+    transition: .2s !important;
+}
+
+@media screen and (max-width:692px) {
+    .logo_expand {
+        transition: 0s;
+    }
 }
 
 //
@@ -242,8 +367,27 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+    padding: 15px;
+    /* padding: 1em; */
+    margin-bottom: 1.5em;
+    border-radius: .3em;
+    border-top: .2em solid;
+    border-color: $greenWebsite;
+    box-shadow: 0 0 2px #bbbbbb;
+    transition: 0.3s;
+}
+
+.posts > .post:hover {
+    transform: translate(0px, -0.05em);
+    box-shadow: 0 0 8px #bbbbbb;
+}
+
+.posts > .post h2 {
+    font-size: 20px;
+    color: black;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
 }
 
 .posts > .post:last-child {
