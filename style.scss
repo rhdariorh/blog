@@ -20,6 +20,11 @@
     background-color: #e6fade !important;
 }
 
+.textoResaltado {
+    color: #77d14a;
+    font-weight: 900;
+}
+
 .bloque {
     display: flex;
     flex-flow: column;
@@ -35,9 +40,8 @@
 }
 
 
-.marginFirstElement {
-    margin-top: 130px;
-    display: inline-block;
+.firstElement {
+    padding-top: 130px;
 }
 
 .tituloPagina {
@@ -62,6 +66,33 @@
     /*color: #77d14a;*/
     font-size: 150%;
     padding: 0.2em;
+}
+
+.myButton {
+    color: black;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.myButton::after {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 22px;
+    text-align: center;
+    content: url(media/images/arrow_down.svg);
+    transition: 0.3s;
+}
+
+.myButton:hover {
+    color: #77d14a;
+    transition: 0.3s;
+}
+
+.myButton:hover::after {
+    padding-top: 5px;
+    transition: 0.3s;
 }
 
 //
