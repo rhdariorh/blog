@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\_layouts",
+    "\\js",
+    "\\_posts",
     "\\_sass"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\_sass\\_reset.scss",
   "PreviewInSolutionExplorer": false
 }
