@@ -8,6 +8,8 @@ serie de pasos desde la idea hasta el resultado final. Este proceso de creación
 en preproducción, producción y postproducción que forman la tubería o pipeline de un
 estudio de animación.
 
+![Pipeline de animación]({{ site.baseurl }}/images/animation_pipeline.jpg)
+
 ### Preproducción
 
 La preproducción es la etapa inicial la cual conlleva un gran proceso creativo.
@@ -120,6 +122,5 @@ el propósito. La labor principal de la postproducción es la siguiente:
 	vídeo y el producto está finalizado.
 
 
-![Pipeline de animación]({{ site.baseurl }}/images/animation_pipeline.jpg)
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
