@@ -8,6 +8,10 @@ serie de pasos desde la idea hasta el resultado final. Este proceso de creación
 en preproducción, producción y postproducción que forman la tubería o pipeline de un
 estudio de animación.
 
+# Preproducción
+## Preproducción
+### Preproducción
+
 *	La preproducción es la etapa inicial la cual conlleva un gran proceso creativo.
 	En el caso de una producción de animación se generan ideas, se crea la historia
 	que se quiere contar y se escribe, se hacen primeros bocetos de cómo va a ser el
