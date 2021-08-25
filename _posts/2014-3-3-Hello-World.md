@@ -36,6 +36,82 @@ estudio de animación.
 		bjetos y cómo va estar configurada la escena según se ha establecido en preproducción. 
 		Posteriormente, durante el desarrollo de la producción se van sustituyendo los modelos 
 		provisionales por los finales y las animaciones además de la iluminación.
+		
+	*	El modelado 3D consiste en la creación de la geometría 3D de los objetos
+		que van a formar las escenas, tanto de los personajes como del entorno a
+		partir los diseños 2D previamente creados en preproducción.
+		
+	*	Texturizado y shading. El texturizado es el proceso en el cual se aplica a los
+		objetos de la escena los colores con los que se van a visualizar. Estos colores
+		pueden añadirse a partir de imágenes textura como puede ser el caso de una
+		imagen de tierra que se aplica a un plano o texturas procedurales las cuales
+		son creadas aplicando un algoritmo. El shading hace referencia al comportamiento 
+		de los objetos ante la iluminación de la escena. El texturizado y
+		el shading están extremadamente ligados pudiéndose considerar uno. Las
+		texturas se utilizan para determinar comportamientos de la luz a lo largo
+		del objeto pudiendo, por ejemplo, tener un comportamiento diferente de la
+		luz en diferentes zonas de un mismo objeto.
+	
+	*	Rigging es un proceso necesario previo a la animación de los modelos. Esta
+		etapa consiste en definir y limitar cómo las diferentes partes de cada objeto
+		puede moverse. Por ejemplo, a un personaje humanoide se le añaden huesos
+		y articulaciones invisibles en el resultado final que determinan qué partes
+		del personaje están articuladas, en qué direcciones se puede mover y en qué
+		magnitud (véase la Figura 1.2). Al igual sucede con el rigging facial o el
+		rigging de un vehículo o cualquier objeto animable.
+		
+	*	Animación. Una vez el rigging está hecho, el animador puede empezar a
+		animar los objetos siguiendo lo establecido en los animatics diseñados en
+		preproducción. La animación es un proceso muy importante para conseguir
+		transmitir el mensaje deseado al espectador y consume gran parte del tiempo
+		de producción pues es un trabajo muy preciso y manual. De hecho, gran
+		parte del personal se dedica a esta fase de la producción. No importa cuan
+		bien esté hecho el resto del proceso si la animación no está bien cuidada y
+		no logra transmitir el mensaje.
+	
+	*	Efectos visuales, o más conocido por su acrónimo VFX del inglés visual effects, 
+		es la fase que permite añadir efectos visuales y animaciones difícilmente
+		logrables usando las técnicas de la etapa de animación. Así puede ser la incorporación 
+		de agua, pelo, fuego, humo, explosiones, objetos deformables,
+		fracturas... Pese a que estos efectos tienen una alta componenente procedural, 
+		también deben tener la suficiente capacidad de control como para que
+		los encargados de la dirección de arte puedan decidir su comportamiento
+		pese a no ajustarse a comportamientos físicamente plausibles.
+		
+	*	Iluminación. En esta etapa se añaden luces a la escena. Gracias a la iluminación 
+		los objetos y personajes no tienen un aspecto plano. Es importante
+		no solo a la hora de hacer un producto visualmente agradable, sino que la
+		iluminación crea los ambientes acordes a la situación, enfatizando el mensaje
+		y siendo parte de la transmisión del mensaje.
+	
+	*	Renderizado. Última etapa de producción. El renderizado es un término que
+		hace referencia a la generación de la imagen a partir de los datos de la
+		escena, siendo estos datos los generados tras todo el proceso de producción
+		comentado.
+		Normalmente la imagen es renderizada en capas separadas diferenciando
+		entre personajes, fondo, sombras o cualquier aspecto relevante para la producción. De esta manera, si se detecta algún problema en el renderizado que
+		conlleve la modificación en alguna etapa anterior, no será necesario volver a
+		renderizar todas las partes de una escena sino únicamente la capa afectada.
+		Por ejemplo, un problema en las sombras de la escena, renderizar únicamente las sombras permite ahorrar tiempo y costes. Además, separar en capas
+		permite ajustar el resultado final como se comenta seguidamente en la etapa
+		de postproducción.
+		
+*	La postproducción es la etapa final en la que se termina de montar y retocar el
+	producto hasta estar listo para publicar y/o distribuir en el caso de que ese sea
+	el propósito. La labor principal de la postproducción es la siguiente:
+	
+	*	Composición, efectos visuales 2D y corrección de color. En esta etapa se
+		combinan las capas renderizadas en producción, este proceso se denomina
+		composición o compositing. A la hora de combinar las capas se pueden hacer
+		todos los retoques que se vean necesarios y ajustar las propiedades de cada
+		capa. Se hacen correcciones de color haciendo consistente la apariencia de
+		todo el metraje pese a las diferencias que pudiera haber entre varios renders.
+		Además, se añaden efectos visuales 2D sobre estas capas los cuales, por
+		norma general, son menos costosos computacionalmente que los VFX 3D
+		realizados en producción. Por ejemplo, destellos de luz, polvo o desenfoques
+		de movimiento. Finalmente, se unen todas las secuencias en el montaje de
+		vídeo y el producto está finalizado.
+
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
