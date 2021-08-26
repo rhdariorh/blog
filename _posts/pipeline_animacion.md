@@ -1,6 +1,7 @@
 ---
 layout: post
 title: La pipeline 3D de la animación
+date: 2021-09-26
 ---
 
 La creación de contenido 3D y más concretamente la animación 3D conlleva una
@@ -23,7 +24,7 @@ Presumiblemente las decisiones artísticas tomadas en esta etapa suelen ser afin
 durante la producción y postproducción.
 
 ### Producción
-	
+
 La producción es la etapa en la que se transforma las ideas y la historia creada
 en preproducción en modelos 3D, animaciones de estos modelos y la iluminación
 de la escena. Este proceso, o subetapas de la pipeline de animación, se conoce
@@ -31,7 +32,7 @@ como la tubería de creación 3D comúnmente llamada por su equivalente en ingle
 pipeline 3D, en el cual la postproducción también tiene un papel importante. La
 producción 3D se puede dividir, de forma general, en los siguientes pasos, alguno
 de ellos paralelizables:
-	
+
 *	Layout es la etapa en la cual se crean las escenas 3D de una forma basta y
 	general. Por norma general, a la hora de hacer el layout todavía no se han
 	terminado de crear los modelos 3D finales por lo que en su lugar se utilizan
@@ -120,7 +121,3 @@ el propósito. La labor principal de la postproducción es la siguiente:
 	realizados en producción. Por ejemplo, destellos de luz, polvo o desenfoques
 	de movimiento. Finalmente, se unen todas las secuencias en el montaje de
 	vídeo y el producto está finalizado.
-
-
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
