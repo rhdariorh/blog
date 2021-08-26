@@ -8,7 +8,7 @@ serie de pasos desde la idea hasta el resultado final. Este proceso de creación
 en preproducción, producción y postproducción que forman la tubería o pipeline de un
 estudio de animación.
 
-<img src="{{ site.baseurl }}/images/animation_pipeline.jpg" alt="Pipeline de animación" style="max-width:50%;"/>
+<img src="{{ site.baseurl }}/images/pipeline_animacion/animation_pipeline.jpg" alt="Pipeline de animación" style="max-width:50%;" class="center"/>
 
 ### Preproducción
 
@@ -65,6 +65,8 @@ de ellos paralelizables:
 	del personaje están articuladas, en qué direcciones se puede mover y en qué
 	magnitud (véase la Figura 1.2). Al igual sucede con el rigging facial o el
 	rigging de un vehículo o cualquier objeto animable.
+
+	<img src="{{ site.baseurl }}/images/pipeline_animacion/rigging.png" alt="Ejemplo rigging" style="max-width:50%;" class="center"/>
 	
 *	Animación. Una vez el rigging está hecho, el animador puede empezar a
 	animar los objetos siguiendo lo establecido en los animatics diseñados en

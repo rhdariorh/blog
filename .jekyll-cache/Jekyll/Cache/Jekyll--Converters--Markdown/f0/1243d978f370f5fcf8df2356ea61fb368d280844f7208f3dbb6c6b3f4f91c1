@@ -1,10 +1,9 @@
-I"?<p>La creación de contenido 3D y más concretamente la animación 3D conlleva una
+I"�<p>La creación de contenido 3D y más concretamente la animación 3D conlleva una
 serie de pasos desde la idea hasta el resultado final. Este proceso de creación se divide
 en preproducción, producción y postproducción que forman la tubería o pipeline de un
 estudio de animación.</p>
 
-<p><img src="/blog/images/animation_pipeline.jpg" alt="Pipeline de animación" />
-&lt;img src=”/blog/images/animation_pipeline.jpg” alt=”Pipeline de animación” max-width=60%/&gt;</p>
+<p><img src="/blog/images/pipeline_animacion/animation_pipeline.jpg" alt="Pipeline de animación" style="max-width:50%;" class="center" /></p>
 
 <h3 id="preproducción">Preproducción</h3>
 
@@ -66,6 +65,8 @@ y articulaciones invisibles en el resultado final que determinan qué partes
 del personaje están articuladas, en qué direcciones se puede mover y en qué
 magnitud (véase la Figura 1.2). Al igual sucede con el rigging facial o el
 rigging de un vehículo o cualquier objeto animable.</p>
+
+    <p><img src="/blog/images/pipeline_animacion/rigging.jpg" alt="Ejemplo rigging" style="max-width:50%;" class="center" /></p>
   </li>
   <li>
     <p>Animación. Una vez el rigging está hecho, el animador puede empezar a

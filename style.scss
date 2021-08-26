@@ -58,6 +58,13 @@
     font-size: 40px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .ocultar {
     opacity: 0;
     transition: .4s;
