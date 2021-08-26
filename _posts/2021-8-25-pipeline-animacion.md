@@ -1,7 +1,6 @@
 ---
 layout: post
 title: La pipeline 3D de la animación
-date: 2021-09-26
 ---
 
 La creación de contenido 3D y más concretamente la animación 3D conlleva una
@@ -9,7 +8,7 @@ serie de pasos desde la idea hasta el resultado final. Este proceso de creación
 en preproducción, producción y postproducción que forman la tubería o pipeline de un
 estudio de animación.
 
-![Pipeline de animación]({{ site.baseurl }}/images/animation_pipeline.jpg)
+<img src="{{ site.baseurl }}/images/animation_pipeline.jpg" alt="Pipeline de animación" style="max-width:50%;"/>
 
 ### Preproducción
 

@@ -53,6 +53,11 @@
     font-size: 50px;
 }
 
+.tituloPagina h2 {
+	text-align: center;
+    font-size: 40px;
+}
+
 .ocultar {
     opacity: 0;
     transition: .4s;
@@ -226,11 +231,9 @@
 /* BASE RULES */
 /**************/
 
-html {
-  font-size: 100%;
-}
 
 html, body {
+	font-size: 100%;
     background: $white;
     font-family: "Montserrat" !important;
     /*font: 18px/1.4 $helvetica;*/
@@ -283,6 +286,16 @@ h4 {
 
 p {
   margin: 15px 0;
+}
+
+.entry{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.entry_preview{
+	font-size: 15px;
+	text-align: justify;
 }
 
 a {
