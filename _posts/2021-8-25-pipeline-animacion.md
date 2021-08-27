@@ -8,7 +8,7 @@ serie de pasos desde la idea hasta el resultado final. Este proceso de creación
 en preproducción, producción y postproducción que forman la tubería o pipeline de un
 estudio de animación.
 
-<img src="{{ site.baseurl }}/images/pipeline_animacion/animation_pipeline.jpg" alt="Pipeline de animación" style="max-width:50%;" class="center"/>
+<img src="{{ site.baseurl }}/images/pipeline_animacion/animation_pipeline.jpg" alt=" Pipeline de producción de animación 3D. Por Andrew Bean." style="max-width:50%;" class="center"/>
 
 ### Preproducción
 
@@ -32,7 +32,7 @@ pipeline 3D, en el cual la postproducción también tiene un papel importante. L
 producción 3D se puede dividir, de forma general, en los siguientes pasos, alguno
 de ellos paralelizables:
 
-*	Layout es la etapa en la cual se crean las escenas 3D de una forma basta y
+*	<b>Layout</b> es la etapa en la cual se crean las escenas 3D de una forma basta y
 	general. Por norma general, a la hora de hacer el layout todavía no se han
 	terminado de crear los modelos 3D finales por lo que en su lugar se utilizan
 	objetos simples como cubos, cilindros, esferas o modelados simples de objetos o 
@@ -43,11 +43,11 @@ de ellos paralelizables:
 	Posteriormente, durante el desarrollo de la producción se van sustituyendo los modelos 
 	provisionales por los finales y las animaciones además de la iluminación.
 	
-*	El modelado 3D consiste en la creación de la geometría 3D de los objetos
+*	El <b>modelado 3D</b> consiste en la creación de la geometría 3D de los objetos
 	que van a formar las escenas, tanto de los personajes como del entorno a
 	partir los diseños 2D previamente creados en preproducción.
 	
-*	Texturizado y shading. El texturizado es el proceso en el cual se aplica a los
+*	<b>Texturizado</b> y <b>shading</b>. El texturizado es el proceso en el cual se aplica a los
 	objetos de la escena los colores con los que se van a visualizar. Estos colores
 	pueden añadirse a partir de imágenes textura como puede ser el caso de una
 	imagen de tierra que se aplica a un plano o texturas procedurales las cuales
@@ -58,7 +58,7 @@ de ellos paralelizables:
 	del objeto pudiendo, por ejemplo, tener un comportamiento diferente de la
 	luz en diferentes zonas de un mismo objeto.
 
-*	Rigging es un proceso necesario previo a la animación de los modelos. Esta
+*	<b>Rigging</b> es un proceso necesario previo a la animación de los modelos. Esta
 	etapa consiste en definir y limitar cómo las diferentes partes de cada objeto
 	puede moverse. Por ejemplo, a un personaje humanoide se le añaden huesos
 	y articulaciones invisibles en el resultado final que determinan qué partes
@@ -66,9 +66,9 @@ de ellos paralelizables:
 	magnitud (véase la Figura 1.2). Al igual sucede con el rigging facial o el
 	rigging de un vehículo o cualquier objeto animable.
 
-	<img src="{{ site.baseurl }}/images/pipeline_animacion/rigging.png" alt="Ejemplo rigging" style="max-width:50%;" class="center"/>
+	<img src="{{ site.baseurl }}/images/pipeline_animacion/rigging.png" alt="Ejemplo de la estructura de huesos de un rigging básico de un personaje 3D." style="max-width:50%;" class="center"/>
 	
-*	Animación. Una vez el rigging está hecho, el animador puede empezar a
+*	<b>Animación</b>. Una vez el rigging está hecho, el animador puede empezar a
 	animar los objetos siguiendo lo establecido en los animatics diseñados en
 	preproducción. La animación es un proceso muy importante para conseguir
 	transmitir el mensaje deseado al espectador y consume gran parte del tiempo
@@ -77,7 +77,7 @@ de ellos paralelizables:
 	bien esté hecho el resto del proceso si la animación no está bien cuidada y
 	no logra transmitir el mensaje.
 
-*	Efectos visuales, o más conocido por su acrónimo VFX del inglés visual effects, 
+*	<b>Efectos visuales</b>, o más conocido por su acrónimo VFX del inglés visual effects, 
 	es la fase que permite añadir efectos visuales y animaciones difícilmente
 	logrables usando las técnicas de la etapa de animación. Así puede ser la incorporación 
 	de agua, pelo, fuego, humo, explosiones, objetos deformables,
@@ -86,13 +86,13 @@ de ellos paralelizables:
 	los encargados de la dirección de arte puedan decidir su comportamiento
 	pese a no ajustarse a comportamientos físicamente plausibles.
 	
-*	Iluminación. En esta etapa se añaden luces a la escena. Gracias a la iluminación 
+*	<b>Iluminación</b>. En esta etapa se añaden luces a la escena. Gracias a la iluminación 
 	los objetos y personajes no tienen un aspecto plano. Es importante
 	no solo a la hora de hacer un producto visualmente agradable, sino que la
 	iluminación crea los ambientes acordes a la situación, enfatizando el mensaje
 	y siendo parte de la transmisión del mensaje.
 
-*	Renderizado. Última etapa de producción. El renderizado es un término que
+*	<b>Renderizado</b>. Última etapa de producción. El renderizado es un término que
 	hace referencia a la generación de la imagen a partir de los datos de la
 	escena, siendo estos datos los generados tras todo el proceso de producción
 	comentado.
@@ -122,3 +122,17 @@ el propósito. La labor principal de la postproducción es la siguiente:
 	realizados en producción. Por ejemplo, destellos de luz, polvo o desenfoques
 	de movimiento. Finalmente, se unen todas las secuencias en el montaje de
 	vídeo y el producto está finalizado.
+
+<hr>
+
+## Bibliografía
+
+Payam Adib. 3d Animation Pipeline. Dream Farm Studios, 2020. URL:  https://dreamfarmstudios.com/blog/3d-animation-pipeline/ .
+
+Chris Casmenco. 3D Production Pipeline. Anim8, February 2018. URL: https://animeight.com/2018/02/21/3d-production-pipeline/
+
+Extraido y modificado de mi Trabajo de Fin de Grado de Ingeniería Multimedia:
+Darío Rodríguez Hernández. Herramienta para la creación procedural de nubes atmosféricas en Blender. Septiembre 2021. Universitat de Valencia.
+
+<hr>
+

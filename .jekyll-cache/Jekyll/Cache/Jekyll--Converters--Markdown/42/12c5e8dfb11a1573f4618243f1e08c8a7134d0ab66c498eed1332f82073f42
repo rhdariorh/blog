@@ -1,9 +1,9 @@
-I"�<p>La creación de contenido 3D y más concretamente la animación 3D conlleva una
+I"#!<p>La creación de contenido 3D y más concretamente la animación 3D conlleva una
 serie de pasos desde la idea hasta el resultado final. Este proceso de creación se divide
 en preproducción, producción y postproducción que forman la tubería o pipeline de un
 estudio de animación.</p>
 
-<p><img src="/blog/images/pipeline_animacion/animation_pipeline.jpg" alt="Pipeline de animación" style="max-width:50%;" class="center" /></p>
+<p><img src="/blog/images/pipeline_animacion/animation_pipeline.jpg" alt=" Pipeline de producción de animación 3D. Por Andrew Bean." style="max-width:50%;" class="center" /></p>
 
 <h3 id="preproducción">Preproducción</h3>
 
@@ -66,7 +66,7 @@ del personaje están articuladas, en qué direcciones se puede mover y en qué
 magnitud (véase la Figura 1.2). Al igual sucede con el rigging facial o el
 rigging de un vehículo o cualquier objeto animable.</p>
 
-    <p><img src="/blog/images/pipeline_animacion/rigging.jpg" alt="Ejemplo rigging" style="max-width:50%;" class="center" /></p>
+    <p><img src="/blog/images/pipeline_animacion/rigging.png" alt="Ejemplo de la estructura de huesos de un rigging básico de un personaje 3D." style="max-width:50%;" class="center" /></p>
   </li>
   <li>
     <p>Animación. Una vez el rigging está hecho, el animador puede empezar a
@@ -129,4 +129,18 @@ realizados en producción. Por ejemplo, destellos de luz, polvo o desenfoques
 de movimiento. Finalmente, se unen todas las secuencias en el montaje de
 vídeo y el producto está finalizado.</li>
 </ul>
+
+<hr />
+
+<h2 id="bibliografía">Bibliografía</h2>
+
+<p>Payam Adib. 3d Animation Pipeline. Dream Farm Studios, 2020. URL:  https://dreamfarmstudios.com/blog/3d-animation-pipeline/ .</p>
+
+<p>Chris Casmenco. 3D Production Pipeline. Anim8, February 2018. URL: https://animeight.com/2018/02/21/3d-production-pipeline/</p>
+
+<p>Estraido y modificado de mi Trabajo de Fin de Grado de Ingeniería Multimedia:
+Darío Rodríguez Hernández. Herramienta para la creación procedural de nubes atmosféricas en Blender. Septiembre 2021. Universitat de Valencia.</p>
+
+<hr />
+
 :ET
