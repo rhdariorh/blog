@@ -17,7 +17,7 @@
 /**************/
 
 ::selection {
-    background-color: #e6fade !important;
+    background-color: #77d14a40 !important;
 }
 
 .textoResaltado {
@@ -111,7 +111,7 @@
 // Barra navegacion
 //
 .barraNavegacion {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.95) 100%);
+    //background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7) 100%);
     z-index: 2;
     position: fixed;
     width: 100%;
@@ -241,11 +241,11 @@
 
 html, body {
 	font-size: 100%;
-    background: $white;
+    background-color: $white;
     font-family: "Montserrat" !important;
     /*font: 18px/1.4 $helvetica;*/
     color: $black;
-    height: 100%;
+    min-height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -566,7 +566,169 @@ img {
   }
 }
 
+// BACKGROUND
 
+.area_over{
+    //background: #4e54c8;
+    //background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: linear-gradient(0deg, white 0%, rgba(255, 255, 255, 0) 30%);
+}
+
+.area{
+    //background: #4e54c8;
+    //background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .area_under{
+      //background: #4e54c8;
+      //background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+      width: 100%;
+      height: auto;
+      position: absolute;
+  }
+
+  .area_under::before{
+    background: linear-gradient( 180deg, rgba(255,255,255,0.65) 0%, #fff 95%);
+    backdrop-filter: blur(10px);
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .area_under img{
+    width: 100%;
+    height: 100%;
+  }
+
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    //background: rgba(255, 255, 255, 0.2);
+    //background: #77d14a7d;
+    animation: animate 25s linear infinite;
+    top: -150px;
+    content: url(media/images/gimp.svg);
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+    content: url(media/images/teapot.svg);
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    content: url(media/images/blender.svg);
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+    content: url(media/images/tech.svg);
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+// END BACKGRPUND
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
