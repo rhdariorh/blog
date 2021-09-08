@@ -4,13 +4,21 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
+
     <article href="{{ site.baseurl }}{{ post.url }}" class="post">
+		<div class="entry_up">
+			{% if post.image %}
+				<img class="" src="{{post.image}}" alt="Imagen del proyecto">
+		{% endif %}
+		</div>
+		
+		<div class="entry_down">
+			<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-
-      <div class="entry_preview">
-        {{ post.excerpt }}
-      </div>
+			<div class="entry_preview">
+				{{ post.excerpt }}
+			</div>
+		</div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer m&aacutes</a>
     </article>
