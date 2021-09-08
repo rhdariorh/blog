@@ -3,24 +3,32 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
+  <div class="container">
+    <div class="row">
+        {% for post in site.posts %}
+          <div class="col-sm">
+            <a href="{{ site.baseurl }}{{ post.url }}">
 
-    <article href="{{ site.baseurl }}{{ post.url }}" class="post">
-		<div class="entry_up">
-			{% if post.image %}
-				<img class="" src="{{post.image}}" alt="Imagen del proyecto">
-		{% endif %}
-		</div>
-		
-		<div class="entry_down">
-			<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+              <article href="{{ site.baseurl }}{{ post.url }}" class="post">
+              <div class="entry_up">
+                {% if post.image %}
+                  <img class="" src="{{post.image}}" alt="Imagen del post">
+                {% endif %}
+              </div>
 
-			<div class="entry_preview">
-				{{ post.excerpt }}
-			</div>
-		</div>
+              <div class="entry_down">
+                <h2>{{ post.title }}</h2>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer m&aacutes</a>
-    </article>
-  {% endfor %}
+                <div class="entry_preview">
+                  {{ post.excerpt }}
+                </div>
+                <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer m&aacutes...</a>-->
+              </div>
+              </article>
+
+            </a>
+            </div>
+        {% endfor %}
+    </div>
+  </div>
 </div>

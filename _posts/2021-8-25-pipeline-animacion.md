@@ -1,7 +1,7 @@
 ---
 layout: post
 title: La pipeline 3D de la animación
-image: images/cover/pipeline-animacion.jpg
+image: images/cover/pipeline_animacion.jpg
 ---
 
 La creación de contenido 3D y más concretamente la animación 3D conlleva una
