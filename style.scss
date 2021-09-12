@@ -53,6 +53,13 @@
     font-size: 50px;
 }
 
+.tituloPagina .colorText{
+  background: linear-gradient(135deg, #77d14a 38%, #2aa198 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
 .tituloPagina h2 {
 	text-align: center;
     font-size: 40px;
@@ -113,7 +120,7 @@
 .barraNavegacion {
     //background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7) 100%);
     z-index: 2;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
