@@ -249,7 +249,7 @@
 
 html, body {
 	font-size: 100%;
-    background-color: $white;
+    //background-color: $white;
     font-family: "Montserrat" !important;
     /*font: 18px/1.4 $helvetica;*/
     color: $black;
@@ -582,6 +582,8 @@ img {
       width: 100%;
       height: auto;
       position: fixed;
+      top: 0;
+      z-index: -1;
   }
 
   .area_bg::before{
