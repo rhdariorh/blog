@@ -267,6 +267,34 @@ function showAnimation() {
 	}
 }
 
+function menuButtonClick(){
+    var menuIconButtons = document.getElementById('menuButtonIcon');
+    if(!menuIconButtons) return;
+
+    var iconBars = document.getElementsByClassName('fa-bars');
+    if(iconBars.length <= 0){
+        menuIconButtons.classList.remove('fa-times');
+        menuIconButtons.classList.add("fa-bars");
+    }
+    else{
+        menuIconButtons.classList.remove('fa-bars');
+        menuIconButtons.classList.add("fa-times");
+    }
+
+    setTimeout(function(){
+        var collapsed = document.getElementsByClassName('collapsed');
+
+        if(collapsed.length <= 0){
+            menuIconButtons.classList.remove('fa-bars');
+            menuIconButtons.classList.add("fa-times");
+        }
+        else{
+            menuIconButtons.classList.remove('fa-times');
+            menuIconButtons.classList.add("fa-bars");
+        }
+    }, 600);
+}
+
 showAnimation();
 document.addEventListener('load', showAnimation, true);
 document.addEventListener('scroll', showAnimation, true);
