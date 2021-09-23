@@ -20,7 +20,11 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/692505fe91.js" crossorigin="anonymous"></script>
 
+    <!-- Custom -->
     <script src="/blog/js/nuestros-js.js"></script>
+	<link rel="stylesheet" href="/blog/imageViewer.css" />
+	<script src="/blog/js/imageViewer/img-previewer.min.js"></script>
+	
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 </head>
 
@@ -110,5 +114,11 @@
 
     {% include analytics.html %}
     {% include background.html %}
+	
+	<script>
+		const a = new ImgPreviewer('.bloque', {
+			scrollbar: true
+		})
+	</script>
 </body>
 </html>
