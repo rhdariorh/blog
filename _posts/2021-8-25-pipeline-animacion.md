@@ -5,23 +5,33 @@ image: images/cover/pipeline_animacion.jpg
 ---
 
 La creación de contenido 3D y más concretamente la animación 3D conlleva una
-serie de pasos desde la idea hasta el resultado final. Este proceso de creación se divide
+serie de pasos <b>desde la idea hasta el resultado final</b>. Este proceso de creación se divide
 en preproducción, producción y postproducción que forman la tubería o pipeline de un
 estudio de animación.
 
-<img src="{{ site.baseurl }}/images/pipeline_animacion/animation_pipeline.jpg" alt=" Pipeline de producción de animación 3D. Por Andrew Bean." style="max-width:50%;" class="center"/>
+<div class="contenedorImagenPost">
+	<img src="{{ site.baseurl }}/images/pipeline_animacion/animation_pipeline.jpg" alt=" Pipeline de producción de animación 3D. Por Andrew Bean."/>
+	Pipeline de producción de animación 3D.
+</div>
 
 ### Preproducción
 
 La preproducción es la etapa inicial la cual conlleva un gran proceso creativo.
-En el caso de una producción de animación se generan ideas, se crea la historia
-que se quiere contar y se escribe, se hacen primeros bocetos de cómo va a ser el
+En el caso de una producción de animación se generan ideas, <b>se crea la historia
+que se quiere contar</b> y se escribe, se hacen primeros bocetos de cómo va a ser el
 desarrollo de la historia visualmente en los llamados storyboards, guiones visuales
 sin movimiento. Se diseña en dibujos 2D cómo van a ser las animaciones en los
-llamados animatics, el entorno y los personajes. Es una etapa muy importante
-pues define el desarrollo tanto de la producción como de la postproducción. 
-Presumiblemente las decisiones artísticas tomadas en esta etapa suelen ser afinadas
-durante la producción y postproducción.
+llamados animatics, en los cuales también se suelen añadir sonidos provisionales, se diseña el entorno y los personajes. 
+
+<div class="contenedorVideoPost">
+	<div class="videoPost">
+		<iframe src="https://www.youtube.com/embed/qAe-u-xDab0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	Ejemplo de animatic.
+</div>
+
+Es una etapa muy importante pues define el desarrollo tanto de la producción como de la postproducción. 
+Las decisiones artísticas tomadas en esta etapa suelen ser afinadas durante la producción y postproducción.
 
 ### Producción
 

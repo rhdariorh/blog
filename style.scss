@@ -114,6 +114,44 @@
     transition: 0.3s;
 }
 
+
+.contenedorImagenPost{
+	background: #ffffff9a;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 30px !important;
+	max-width:70%;
+	margin:auto;
+}
+
+.contenedorVideoPost {
+	max-width: 70%; 
+	margin: auto;
+	background: #ffffff9a;
+	border-radius: 10px;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.videoPost {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	//padding-top: 30px;
+	position: relative;
+	text-align: center;
+	}
+	
+.videoPost iframe, .contenedorVideoPost object, .contenedorVideoPost embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
+
+
 //
 // Barra navegacion
 //
